@@ -1,0 +1,81 @@
+header
+    .top_line.container
+        a.logo-img(href='javascript:void(0);')
+            img(src='../../assets/images/logo.png', alt='')
+        .logo
+            .title_logo Центр
+            .text_logo_color Кадастровых
+            .text_logo Услуг
+        .top_contacts
+            .cont_block
+                a.cont_phone(href='tel:+7 495 972-05-33')
+                    i.fa.fa-phone.icon-rotate-180(aria-hidden="true")
+                    |                 +7 (967) 299-99-36
+                .open_hours
+                    | По будням с 09:00 до 20:00
+                    br
+                    | По выходным с 10:00 до 18:00
+                a.call_back(href='#') Обратный звонок
+        .top_address
+            a.map_point(href='javascript:void(0);')
+                //img(src='img/point.png', alt='Позвонить')
+            span.top_index Москва, 115191,
+            span.link Схема проезда
+            br
+            i.fa.fa-map-marker(aria-hidden="true").address
+            |   Малая Тульская улица, 15А
+            br
+            a.top_mail_ico(href='mailto:info@texplan24.ru')
+                i.fa.fa-envelope(aria-hidden="true").top_mail
+                |  info@texplan24.ru
+
+
+
+    nav#nav-reg.navbar.navbar-expand-lg.navbar-dark.bg-color.my-navbar
+        .container.my-container
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo01', aria-controls='navbarTogglerDemo01', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarTogglerDemo01.collapse.navbar-collapse
+                //a.navbar-brand(href='#')
+                ul.navbar-nav.mr-auto.mt-2.mt-lg-0.justify-content-center
+                    li.nav-item.active
+                        a.nav-link(href='#').home-link
+                            img(src='../../assets/images/home.png').img-link
+                            span.sr-only (current)
+                    li.nav-item.dropdown
+                        a.nav-link(data-toggle='dropdown', href='#', role='button', aria-haspopup='true', aria-expanded='false')
+                            | О компании
+                            i.fa.fa-angle-down
+                        .dropdown-menu.my-dropdown-menu
+                            a.my-dropdown-item.dropdown-item(href='#') Action
+                            a.my-dropdown-item.dropdown-item(href='#') Another action
+                            a.my-dropdown-item.dropdown-item(href='#') Something else here
+                    li.nav-item.dropdown
+                        a.nav-link(data-toggle='dropdown', href='#', role='button', aria-haspopup='true', aria-expanded='false')
+                            | Услуги
+                            i.fa.fa-angle-down
+                        .dropdown-menu.my-dropdown-menu
+                            a.my-dropdown-item.dropdown-item(href='#') Action
+                            a.my-dropdown-item.dropdown-item(href='#') Another action
+                            a.my-dropdown-item.dropdown-item(href='#') Something else here
+                    li.nav-item.dropdown
+                        a.nav-link(data-toggle='dropdown', href='#', role='button', aria-haspopup='true', aria-expanded='false')
+                            | Клиентам
+                            i.fa.fa-angle-down
+                        .dropdown-menu.my-dropdown-menu
+                            a.my-dropdown-item.dropdown-item(href='#') Action
+                            a.my-dropdown-item.dropdown-item(href='#') Another action
+                            a.my-dropdown-item.dropdown-item(href='#') Something else here
+
+                    li.nav-item
+                        a.nav-link(href='#') Отзывы
+                    li.nav-item
+                        a.nav-link(href='#') Новости
+                    li.nav-item
+                        a.nav-link(href='#') Контакты
+                form.form-inline.my-2.my-lg-0
+                    //input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
+                    button.calc-price.my-2.my-sm-0(type='submit') Расчет стоимости
+                    //glyphicon glyphicon-search
+
+

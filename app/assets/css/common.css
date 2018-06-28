@@ -1,0 +1,111 @@
+@media screen and (min-width: 992px) {
+  .my-navbar {
+    height: 44px;
+  }
+}
+.my-navbar {
+  font-size: 0.8rem;
+}
+.bg-color {
+  background-color: #34495e;
+  color: #eee;
+}
+a.nav-link.home-link {
+  background-color: #526476;
+  padding: 10px;
+  width: 45px;
+  text-align: center;
+  margin-right: 20px;
+}
+img.img-link {
+  vertical-align: top;
+}
+a.nav-link {
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+i.fa.fa-angle-down {
+  padding-left: 12px;
+}
+.calc-price {
+  height: 44px;
+  width: 200px;
+  background-color: #1abc9c;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eee;
+}
+.my-dropdown-menu {
+  background-color: rgba(82,100,118,0.7);
+}
+.my-dropdown-item {
+  color: #eee;
+}
+@media screen and (max-width: 992px) {
+  a.nav-link.home-link {
+    width: 200px;
+    text-align: center;
+  }
+  .my-dropdown-menu {
+    width: 200px;
+  }
+}
+.top_line {
+  display: flex;
+  margin-top: 30px;
+}
+a.logo-img,
+.logo,
+.top_contacts,
+.top_address {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo {
+  box-sizing: border-box;
+  margin-left: 31px;
+  font-family: Myriad Pro Regular, serif;
+  color: #34495e;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.logo >.text_logo_color {
+  line-height: 29px;
+  color: #f39c12;
+  font-weight: 500;
+}
+.icon-rotate-180 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.top_contacts {
+  box-sizing: border-box;
+  margin-left: 221px;
+}
+.cont_block {
+  box-sizing: border-box;
+}
+.cont_phone {
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cont_phone:hover {
+  text-decoration: none;
+  color: #f39c12;
+}
+.open_hours {
+  font-size: 0.8rem;
+}
+.top_address {
+  flex-grow: 1000;
+  text-align: start;
+}
+.fa.fa-envelope,
+i.fa.fa-phone {
+  text-decoration: none;
+}
