@@ -1,5 +1,5 @@
 header
-    .top_line.container
+    .top_line.wrapper
         a.logo-img(href='javascript:void(0);')
             img(src='../../assets/images/logo.png', alt='')
         .logo
@@ -9,24 +9,22 @@ header
         .top_contacts
             .cont_block
                 a.cont_phone(href='tel:+7 495 972-05-33')
-                    i.fa.fa-phone.icon-rotate-180(aria-hidden="true")
                     |                 +7 (967) 299-99-36
                 .open_hours
                     | По будням с 09:00 до 20:00
                     br
                     | По выходным с 10:00 до 18:00
-                a.call_back(href='#') Обратный звонок
+                a(href='javascript:void(0)').call_back Обратный звонок
         .top_address
             a.map_point(href='javascript:void(0);')
-                //img(src='img/point.png', alt='Позвонить')
+
             span.top_index Москва, 115191,
-            span.link Схема проезда
+            a(href='javascript:void(0)').map_link Схема проезда
             br
-            i.fa.fa-map-marker(aria-hidden="true").address
-            |   Малая Тульская улица, 15А
+            .address
+                | Малая Тульская улица, 15А
             br
             a.top_mail_ico(href='mailto:info@texplan24.ru')
-                i.fa.fa-envelope(aria-hidden="true").top_mail
                 |  info@texplan24.ru
 
 

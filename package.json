@@ -24,5 +24,8 @@
     "gulp-uglify": "^3.0.0",
     "imagemin-pngquant": "^5.1.0",
     "pug": "^2.0.3"
+  },
+  "dependencies": {
+    "smart-grid": "^2.1.1"
   }
 }

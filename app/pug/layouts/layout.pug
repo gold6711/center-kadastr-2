@@ -2,8 +2,7 @@ doctype html
 html(lang="ru-RU")
     include ../blocks/head.pug
     body.body
-        .wrap-site
-            include ../blocks/header.pug
-            block content
-            include ../blocks/footer.pug
-        script(src='assets/js/vendor.min.js')
+        include ../blocks/header.pug
+        block content
+        include ../blocks/footer.pug
+    script(src='assets/js/vendor.min.js')
