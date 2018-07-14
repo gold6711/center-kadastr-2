@@ -1,6 +1,8 @@
 ### NPM / BOWER components
-node_modules/*
+node_modules/
 bower_components/*
+
+vendor/
 
 ### Sass template
 .sass-cache

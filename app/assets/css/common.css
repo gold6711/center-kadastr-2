@@ -72,6 +72,7 @@ a.logo-img {
 }
 .open_hours {
   font-size: 0.8rem;
+  padding-bottom: 3px;
 }
 a.call_back {
   text-decoration: underline;
