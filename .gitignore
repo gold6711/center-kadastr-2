@@ -1,8 +1,10 @@
 ### NPM / BOWER components
 node_modules/
 bower_components/*
-
+### не понял нужно ли добавлять эту дир в игнор
 vendor/
+
+.idea
 
 ### Sass template
 .sass-cache
