@@ -1,3 +1,118 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+legend {
+  color: #000;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.wrapper {
+  max-width: 1145px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 780px) {
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1155px;
+  }
+}
 @media screen and (min-width: 992px) {
   .my-navbar {
     height: 44px;
@@ -53,9 +168,9 @@ i.fa.fa-angle-down {
 }
 .top_line {
   display: flex;
+  justify-content: space-between;
   margin-top: 30px;
 }
-a.logo-img,
 .logo,
 .top_contacts,
 .top_address {
@@ -63,9 +178,12 @@ a.logo-img,
   flex-wrap: wrap;
 }
 .logo {
+  display: flex;
+  width: 360px;
+}
+.logo_text {
   box-sizing: border-box;
   margin-left: 31px;
-  font-family: Myriad Pro Regular, serif;
   color: #34495e;
   font-size: 30px;
   font-weight: 500;
@@ -73,7 +191,7 @@ a.logo-img,
   line-height: 29px;
   text-transform: uppercase;
 }
-.logo >.text_logo_color {
+.logo_text >.text_logo_color {
   line-height: 29px;
   color: #f39c12;
   font-weight: 500;
@@ -84,7 +202,7 @@ a.logo-img,
 }
 .top_contacts {
   box-sizing: border-box;
-  margin-left: 221px;
+  margin-left: 200px;
 }
 .cont_block {
   box-sizing: border-box;
@@ -104,6 +222,7 @@ a.logo-img,
 .top_address {
   flex-grow: 1000;
   text-align: start;
+  margin-left: 20px;
 }
 .fa.fa-envelope,
 i.fa.fa-phone {

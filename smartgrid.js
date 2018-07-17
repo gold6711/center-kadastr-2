@@ -2,13 +2,13 @@ const smartgrid = require('smart-grid');
 
 /* It's principal settings in smart grid project */
 const settings = {
-    outputStyle: 'styl', /* less || scss || sass || styl */
+    outputStyle: 'styl', /* less || scss || sass || styl*/
     columns: 12, /* number of grid columns */
-    offset: '30px', /* gutter width px || % || rem */
+    offset: '10px', /* gutter width px || % || rem *  -> default = 30px /
     mobileFirst: false, /* mobileFirst ? 'min-width' : 'max-width' */
     container: {
-        maxWidth: '1200px', /* max-width оn very large screen */
-        fields: '30px' /* side fields */
+        maxWidth: '1145px', /* max-width оn very large screen */
+        fields: '10px' /* side fields - default = 30px */
     },
     breakPoints: {
         lg: {

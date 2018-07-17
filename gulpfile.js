@@ -52,14 +52,17 @@ var paths = {
                 src: [
                     './app/vendor/normalize-css/normalize.css',
                     './app/vendor/bootstrap/dist/css/bootstrap.min.css',
-                    './app/vendor/font-awesome/web-fonts-with-css/css/fontawesome.min.css'
+                    './app/vendor/font-awesome/web-fonts-with-css/css/fontawesome.min.css',
+                    './app/vendor/owl.carousel/dist/assets/owl.carousel.css',
+                    './app/vendor/owl.carousel/dist/assets/owl.theme.default.css'
                 ],
                 dest: './app/assets/css'
             },
             js: {
                 src: [
                     './app/vendor/jquery/dist/jquery.min.js',
-                    './app/vendor/bootstrap/dist/js/bootstrap.min.js'
+                    './app/vendor/bootstrap/dist/js/bootstrap.min.js',
+                    './app/vendor/owl.carousel/dist/owl.carousel.js'
                 ],
                 dest: './app/assets/js'
             },

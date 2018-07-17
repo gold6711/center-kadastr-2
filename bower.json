@@ -20,5 +20,8 @@
     "normalize.css": "^8.0.0",
     "bootstrap": "4",
     "font-awesome": "^5.0.13"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
   }
 }
