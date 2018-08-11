@@ -92,7 +92,7 @@ var paths = {
             dest: './dist/assets/js'
         },
         fonts: {
-            src: './app/assets/fonts/*.*',
+            src: './app/assets/fonts/*.*', // можно *{ttf,woff,woff2,svg,eot}
             dest: './dist/assets/fonts'
         }
     }
